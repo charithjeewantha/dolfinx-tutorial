@@ -9,7 +9,7 @@ As a first extension of the Poisson problem from the previous chapter, we consid
 The model problem for the time-dependent PDE reads
 \begin{align}
     \frac{\partial u}{\partial t}&=\nabla^2 u + f && \text{in } \Omega \times (0, T],\\
-    u &= u_D && \text{n } \partial\Omega \times (0,T],\\
+    u &= u_D && \text{on } \partial\Omega \times (0,T],\\
     u &= u_0 && \text{at } t=0.
 \end{align}
 
