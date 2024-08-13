@@ -47,7 +47,7 @@ First, we use the short-hand notation
 ```
 This allows us to express the variational problem in a more compact way. Second, we use the notation $u^{n+\frac{1}{2}}$. This notation refers to the value of $u$ at the midpoint of the interval, usually approximated by an arithmetic mean:
 ```{math}
-   u^{n+\frac{1}{2}}\approx \frac{u^{n}+ u^{n+1}}{2}.
+   u^{n+\frac{1}{2}}\approx \frac{u^{n}+ u^{n+1}}{2}. %There should be a mistake here...
 ```
 Third, we notice that the variational problem [](ipcs-one) arises from the integration by parts of the term 
 $\langle -\nabla \cdot \sigma, v\rangle$. Just as for the [linear elasticity problem](./linearelasticity.md), we obtain
